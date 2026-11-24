@@ -55,7 +55,7 @@ flowchart TD
 
     N1 -- "LoRa / UDP (Anomaly Packet)" --> SM
     N2 -- "LoRa / UDP (Anomaly Packet)" --> SM
-    N3 -- "LoRa / UDP (Anomaly Packet)" --> M
+    N3 -- "LoRa / UDP (Anomaly Packet)" --> SM
     SM -- "LoRaWAN Mesh" --> M
     M -- "HTTPS POST (Cellular / Satellite)" --> API
     API --> DB
