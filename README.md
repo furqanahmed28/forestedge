@@ -162,23 +162,6 @@ For API contracts, payload schemas, and database structure, see the [web/README.
 
 ---
 
-## Repository Hygiene & MERL-UITU Handover Guidelines
-
-Prior to publishing or transferring this repository to the **MERL-UITU** organization, contributors and automated agents must adhere to the following standards:
-
-1. **Secret & Key Sanitization**:
-   * Never commit production API keys, bearer tokens, or cloud credentials.
-   * Configure `master_cloud_url` and API secrets using environment variables or untracked local `config.json` files.
-2. **Path Parameterization**:
-   * Do not commit hardcoded host machine paths (e.g., `/home/username/...` or `C:\Users\...`).
-   * Scripts such as `qemu/qemu_run_Script.sh` must rely on environment variable defaults (`BUILDROOT_DIR`, `BUILDROOT_IMAGES`).
-3. **Weight & Model Exclusions**:
-   * Heavy GGUF binary model weights (`*.gguf`) must **not** be checked into version control. Download models onto edge devices or mount them via QEMU VirtIO drives.
-4. **Licensing Compliance**:
-   * The ForestEdge orchestration code, hardware HAL, and web dashboard are distributed under the **MIT License**.
-   * Upstream dependencies bundled or evaluated (including `llama.cpp` and `ggml`) are governed by their respective open-source licenses (MIT).
-
----
 
 ## License
 
