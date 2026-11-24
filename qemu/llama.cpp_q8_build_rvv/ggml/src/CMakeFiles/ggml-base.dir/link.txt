@@ -1,0 +1,2 @@
+/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-ar qc libggml-base.a "CMakeFiles/ggml-base.dir/ggml.c.o" "CMakeFiles/ggml-base.dir/ggml.cpp.o" "CMakeFiles/ggml-base.dir/ggml-alloc.c.o" "CMakeFiles/ggml-base.dir/ggml-backend.cpp.o" "CMakeFiles/ggml-base.dir/ggml-backend-meta.cpp.o" "CMakeFiles/ggml-base.dir/ggml-opt.cpp.o" "CMakeFiles/ggml-base.dir/ggml-threading.cpp.o" "CMakeFiles/ggml-base.dir/ggml-quants.c.o" "CMakeFiles/ggml-base.dir/gguf.cpp.o"
+/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-ranlib libggml-base.a

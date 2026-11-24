@@ -1,0 +1,28 @@
+ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o: \
+ /home/furqan/llama.cpp/ggml/src/ggml-quants.c \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h \
+ /home/furqan/llama.cpp/ggml/src/ggml-common.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h \
+ /home/furqan/llama.cpp/ggml/src/ggml-quants.h \
+ /home/furqan/llama.cpp/ggml/src/../include/ggml.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdbool.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stddef.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h \
+ /home/furqan/llama.cpp/ggml/src/ggml-impl.h \
+ /home/furqan/llama.cpp/ggml/src/../include/gguf.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/assert.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/math.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdlib.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/alloca.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/string.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/strings.h \
+ /home/furqan/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-impl.h \
+ /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include/riscv_vector.h \
+ /home/furqan/llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/furqan/llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/furqan/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/float.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/float.h

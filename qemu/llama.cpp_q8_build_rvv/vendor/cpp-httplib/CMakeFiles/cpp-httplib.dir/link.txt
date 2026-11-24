@@ -1,0 +1,2 @@
+/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-ar qc libcpp-httplib.a "CMakeFiles/cpp-httplib.dir/httplib.cpp.o"
+/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-ranlib libcpp-httplib.a

@@ -1,0 +1,3118 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The target system is: Linux -  - riscv64
+      The host system is: Linux - 6.6.87.2-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/"
+    found: "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc 
+      Build flags: -march=rv64gcv;-mabi=lp64d
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/furqan/llama.cpp/build-q8/CMakeFiles/4.3.2/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-ar"
+      - "ar"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-strip"
+      - "strip"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-ld"
+      - "ld"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-dlltool"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-dlltool"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-dlltool"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-dlltool"
+      - "/usr/bin/riscv64-buildroot-linux-musl-dlltool"
+      - "/sbin/riscv64-buildroot-linux-musl-dlltool"
+      - "/bin/riscv64-buildroot-linux-musl-dlltool"
+      - "/usr/games/riscv64-buildroot-linux-musl-dlltool"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-dlltool"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-dlltool"
+      - "/snap/bin/riscv64-buildroot-linux-musl-dlltool"
+      - "/home/furqan/buildroot/output/host/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/usr/lib/wsl/lib/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-tapi"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-tapi"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-tapi"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-tapi"
+      - "/usr/bin/riscv64-buildroot-linux-musl-tapi"
+      - "/sbin/riscv64-buildroot-linux-musl-tapi"
+      - "/bin/riscv64-buildroot-linux-musl-tapi"
+      - "/usr/games/riscv64-buildroot-linux-musl-tapi"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-tapi"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-tapi"
+      - "/snap/bin/riscv64-buildroot-linux-musl-tapi"
+      - "/home/furqan/buildroot/output/host/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/usr/lib/wsl/lib/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "riscv64-buildroot-linux-musl-gcc-ar14"
+      - "riscv64-buildroot-linux-musl-gcc-ar"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ar14"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "riscv64-buildroot-linux-musl-gcc-ranlib"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/"
+    found: "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++ 
+      Build flags: -march=rv64gcv;-mabi=lp64d
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/furqan/llama.cpp/build-q8/CMakeFiles/4.3.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "riscv64-buildroot-linux-musl-gcc-ar14"
+      - "riscv64-buildroot-linux-musl-gcc-ar"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ar-14.3"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ar-14"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ar14"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ar14"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "riscv64-buildroot-linux-musl-gcc-ranlib"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14.3"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ranlib-14"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ranlib14"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ranlib14"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-rsWBwt"
+      binary: "/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-rsWBwt"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "-march=rv64gcv -mabi=lp64d"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-rsWBwt'
+        
+        Run Build Command(s): /home/furqan/buildroot/output/host/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_90591/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_90591.dir/build.make CMakeFiles/cmTC_90591.dir/build
+        gmake[1]: Entering directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-rsWBwt'
+        Building C object CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o
+        /home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc   -march=rv64gcv -mabi=lp64d    -v -o CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o -c /home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc.br_real
+        Target: riscv64-buildroot-linux-musl
+        Configured with: ./configure --prefix=/home/furqan/buildroot/output/host --sysconfdir=/home/furqan/buildroot/output/host/etc --enable-static --target=riscv64-buildroot-linux-musl --with-sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/furqan/buildroot/output/host --with-mpc=/home/furqan/buildroot/output/host --with-mpfr=/home/furqan/buildroot/output/host --with-pkgversion='Buildroot -g160ef0b2' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libmpx --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-arch=rv64imafdcv_zicsr_zifencei --with-abi=lp64d --enable-languages=c,c++ --with-build-time-tools=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/bin --enable-shared --disable-libgomp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.3.0 (Buildroot -g160ef0b2) 
+        COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_90591.dir/'
+         /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/cc1 -quiet -v -imultilib . -isysroot /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot /home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_90591.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv64gcv -mabi=lp64d -misa-spec=20191213 -mtls-dialect=trad -march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -version -fstack-protector-strong -fPIE -o /tmp/ccRtsiFC.s
+        GNU C17 (Buildroot -g160ef0b2) version 14.3.0 (riscv64-buildroot-linux-musl)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include
+         /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include
+         /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include
+        End of search list.
+        Compiler executable checksum: b5088b0772fe35b28648413126bfe348
+        COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_90591.dir/'
+         /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/as -v --traditional-format -fpic -march=rv64gcv -march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o /tmp/ccRtsiFC.s
+        GNU assembler version 2.45.1 (riscv64-buildroot-linux-musl) using BFD version (GNU Binutils) 2.45.1
+        COMPILER_PATH=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/
+        LIBRARY_PATH=/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_90591
+        /home/furqan/buildroot/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90591.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc.br_real
+        COLLECT_LTO_WRAPPER=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper
+        Target: riscv64-buildroot-linux-musl
+        Configured with: ./configure --prefix=/home/furqan/buildroot/output/host --sysconfdir=/home/furqan/buildroot/output/host/etc --enable-static --target=riscv64-buildroot-linux-musl --with-sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/furqan/buildroot/output/host --with-mpc=/home/furqan/buildroot/output/host --with-mpfr=/home/furqan/buildroot/output/host --with-pkgversion='Buildroot -g160ef0b2' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libmpx --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-arch=rv64imafdcv_zicsr_zifencei --with-abi=lp64d --enable-languages=c,c++ --with-build-time-tools=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/bin --enable-shared --disable-libgomp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.3.0 (Buildroot -g160ef0b2) 
+        COMPILER_PATH=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/
+        LIBRARY_PATH=/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'cmTC_90591' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'cmTC_90591.'
+         /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/collect2 -plugin /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/liblto_plugin.so -plugin-opt=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccanqL0N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --eh-frame-hdr -melf64lriscv -X -dynamic-linker /lib/ld-musl-riscv64.so.1 -pie -o cmTC_90591 /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0 -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib -z now -z relro -v CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o
+        collect2 version 14.3.0
+        /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/ld -plugin /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/liblto_plugin.so -plugin-opt=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccanqL0N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --eh-frame-hdr -melf64lriscv -X -dynamic-linker /lib/ld-musl-riscv64.so.1 -pie -o cmTC_90591 /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0 -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib -z now -z relro -v CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o
+        GNU ld (GNU Binutils) 2.45.1
+        COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'cmTC_90591' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'cmTC_90591.'
+        /home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc -march=rv64gcv -mabi=lp64d   -v -Wl,-v CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o -o cmTC_90591
+        gmake[1]: Leaving directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-rsWBwt'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include]
+          add: [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
+          add: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include]
+        end of search list found
+        collapse include dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include]
+        collapse include dir [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
+        collapse include dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include] ==> [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include]
+        implicit include dirs: [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include;/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-rsWBwt']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/furqan/buildroot/output/host/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_90591/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_90591.dir/build.make CMakeFiles/cmTC_90591.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-rsWBwt']
+        ignore line: [Building C object CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc   -march=rv64gcv -mabi=lp64d    -v -o CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o -c /home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc.br_real]
+        ignore line: [Target: riscv64-buildroot-linux-musl]
+        ignore line: [Configured with: ./configure --prefix=/home/furqan/buildroot/output/host --sysconfdir=/home/furqan/buildroot/output/host/etc --enable-static --target=riscv64-buildroot-linux-musl --with-sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/furqan/buildroot/output/host --with-mpc=/home/furqan/buildroot/output/host --with-mpfr=/home/furqan/buildroot/output/host --with-pkgversion='Buildroot -g160ef0b2' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libmpx --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-arch=rv64imafdcv_zicsr_zifencei --with-abi=lp64d --enable-languages=c,c++ --with-build-time-tools=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/bin --enable-shared --disable-libgomp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.3.0 (Buildroot -g160ef0b2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_90591.dir/']
+        ignore line: [ /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/cc1 -quiet -v -imultilib . -isysroot /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot /home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_90591.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv64gcv -mabi=lp64d -misa-spec=20191213 -mtls-dialect=trad -march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -version -fstack-protector-strong -fPIE -o /tmp/ccRtsiFC.s]
+        ignore line: [GNU C17 (Buildroot -g160ef0b2) version 14.3.0 (riscv64-buildroot-linux-musl)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include]
+        ignore line: [ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
+        ignore line: [ /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: b5088b0772fe35b28648413126bfe348]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_90591.dir/']
+        ignore line: [ /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/as -v --traditional-format -fpic -march=rv64gcv -march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o /tmp/ccRtsiFC.s]
+        ignore line: [GNU assembler version 2.45.1 (riscv64-buildroot-linux-musl) using BFD version (GNU Binutils) 2.45.1]
+        ignore line: [COMPILER_PATH=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o' '-c' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_90591]
+        ignore line: [/home/furqan/buildroot/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90591.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc.br_real]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper]
+        ignore line: [Target: riscv64-buildroot-linux-musl]
+        ignore line: [Configured with: ./configure --prefix=/home/furqan/buildroot/output/host --sysconfdir=/home/furqan/buildroot/output/host/etc --enable-static --target=riscv64-buildroot-linux-musl --with-sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/furqan/buildroot/output/host --with-mpc=/home/furqan/buildroot/output/host --with-mpfr=/home/furqan/buildroot/output/host --with-pkgversion='Buildroot -g160ef0b2' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libmpx --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-arch=rv64imafdcv_zicsr_zifencei --with-abi=lp64d --enable-languages=c,c++ --with-build-time-tools=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/bin --enable-shared --disable-libgomp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.3.0 (Buildroot -g160ef0b2) ]
+        ignore line: [COMPILER_PATH=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'cmTC_90591' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'cmTC_90591.']
+        link line: [ /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/collect2 -plugin /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/liblto_plugin.so -plugin-opt=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccanqL0N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --eh-frame-hdr -melf64lriscv -X -dynamic-linker /lib/ld-musl-riscv64.so.1 -pie -o cmTC_90591 /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0 -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib -z now -z relro -v CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o]
+          arg [/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccanqL0N.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-melf64lriscv] ==> ignore
+          arg [-X] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-riscv64.so.1] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_90591] ==> ignore
+          arg [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o] ==> obj [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o]
+          arg [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o] ==> obj [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o]
+          arg [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o] ==> obj [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o]
+          arg [-L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0] ==> dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0]
+          arg [-L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib] ==> dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib]
+          arg [-L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib] ==> dir [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib]
+          arg [-L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib] ==> dir [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib]
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o] ==> obj [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o]
+          arg [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o] ==> obj [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o]
+        ignore line: [collect2 version 14.3.0]
+        ignore line: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/ld -plugin /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/liblto_plugin.so -plugin-opt=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccanqL0N.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --eh-frame-hdr -melf64lriscv -X -dynamic-linker /lib/ld-musl-riscv64.so.1 -pie -o cmTC_90591 /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0 -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib -z now -z relro -v CMakeFiles/cmTC_90591.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o]
+        linker tool for 'C': /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/ld
+        collapse library dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0] ==> [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0]
+        collapse library dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/lib]
+        collapse library dir [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib]
+        collapse library dir [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o;/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o;/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o;/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o;/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o]
+        implicit dirs: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/lib;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.45.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-6TZy9p"
+      binary: "/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-6TZy9p"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-march=rv64gcv -mabi=lp64d"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-6TZy9p'
+        
+        Run Build Command(s): /home/furqan/buildroot/output/host/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3d3e2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3d3e2.dir/build.make CMakeFiles/cmTC_3d3e2.dir/build
+        gmake[1]: Entering directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-6TZy9p'
+        Building CXX object CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o
+        /home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++   -march=rv64gcv -mabi=lp64d    -v -o CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o -c /home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++.br_real
+        Target: riscv64-buildroot-linux-musl
+        Configured with: ./configure --prefix=/home/furqan/buildroot/output/host --sysconfdir=/home/furqan/buildroot/output/host/etc --enable-static --target=riscv64-buildroot-linux-musl --with-sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/furqan/buildroot/output/host --with-mpc=/home/furqan/buildroot/output/host --with-mpfr=/home/furqan/buildroot/output/host --with-pkgversion='Buildroot -g160ef0b2' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libmpx --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-arch=rv64imafdcv_zicsr_zifencei --with-abi=lp64d --enable-languages=c,c++ --with-build-time-tools=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/bin --enable-shared --disable-libgomp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.3.0 (Buildroot -g160ef0b2) 
+        COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_3d3e2.dir/'
+         /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/cc1plus -quiet -v -imultilib . -isysroot /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot -D_GNU_SOURCE /home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3d3e2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv64gcv -mabi=lp64d -misa-spec=20191213 -mtls-dialect=trad -march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -version -fstack-protector-strong -fPIE -o /tmp/cc1ybr6A.s
+        GNU C++17 (Buildroot -g160ef0b2) version 14.3.0 (riscv64-buildroot-linux-musl)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0
+         /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0/riscv64-buildroot-linux-musl/.
+         /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0/backward
+         /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include
+         /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include
+         /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include
+        End of search list.
+        Compiler executable checksum: 04c5f43cd6764aeb55d037114d509358
+        COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_3d3e2.dir/'
+         /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/as -v --traditional-format -fpic -march=rv64gcv -march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1ybr6A.s
+        GNU assembler version 2.45.1 (riscv64-buildroot-linux-musl) using BFD version (GNU Binutils) 2.45.1
+        COMPILER_PATH=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/
+        LIBRARY_PATH=/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_3d3e2
+        /home/furqan/buildroot/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3e2.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++.br_real
+        COLLECT_LTO_WRAPPER=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper
+        Target: riscv64-buildroot-linux-musl
+        Configured with: ./configure --prefix=/home/furqan/buildroot/output/host --sysconfdir=/home/furqan/buildroot/output/host/etc --enable-static --target=riscv64-buildroot-linux-musl --with-sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/furqan/buildroot/output/host --with-mpc=/home/furqan/buildroot/output/host --with-mpfr=/home/furqan/buildroot/output/host --with-pkgversion='Buildroot -g160ef0b2' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libmpx --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-arch=rv64imafdcv_zicsr_zifencei --with-abi=lp64d --enable-languages=c,c++ --with-build-time-tools=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/bin --enable-shared --disable-libgomp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.3.0 (Buildroot -g160ef0b2) 
+        COMPILER_PATH=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/
+        LIBRARY_PATH=/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'cmTC_3d3e2' '-shared-libgcc' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'cmTC_3d3e2.'
+         /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/collect2 -plugin /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/liblto_plugin.so -plugin-opt=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDbqXis.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --eh-frame-hdr -melf64lriscv -X -dynamic-linker /lib/ld-musl-riscv64.so.1 -pie -o cmTC_3d3e2 /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0 -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib -z now -z relro -v CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o
+        collect2 version 14.3.0
+        /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/ld -plugin /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/liblto_plugin.so -plugin-opt=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDbqXis.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --eh-frame-hdr -melf64lriscv -X -dynamic-linker /lib/ld-musl-riscv64.so.1 -pie -o cmTC_3d3e2 /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0 -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib -z now -z relro -v CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o
+        GNU ld (GNU Binutils) 2.45.1
+        COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'cmTC_3d3e2' '-shared-libgcc' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'cmTC_3d3e2.'
+        /home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++ -march=rv64gcv -mabi=lp64d   -v -Wl,-v CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3d3e2
+        gmake[1]: Leaving directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-6TZy9p'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0]
+          add: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0/riscv64-buildroot-linux-musl/.]
+          add: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0/backward]
+          add: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include]
+          add: [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
+          add: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include]
+        end of search list found
+        collapse include dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0]
+        collapse include dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0/riscv64-buildroot-linux-musl/.] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0/riscv64-buildroot-linux-musl]
+        collapse include dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0/backward] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0/backward]
+        collapse include dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include]
+        collapse include dir [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
+        collapse include dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include] ==> [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include]
+        implicit include dirs: [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0/riscv64-buildroot-linux-musl;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0/backward;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include;/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-6TZy9p']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/furqan/buildroot/output/host/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3d3e2/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_3d3e2.dir/build.make CMakeFiles/cmTC_3d3e2.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-6TZy9p']
+        ignore line: [Building CXX object CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++   -march=rv64gcv -mabi=lp64d    -v -o CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o -c /home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++.br_real]
+        ignore line: [Target: riscv64-buildroot-linux-musl]
+        ignore line: [Configured with: ./configure --prefix=/home/furqan/buildroot/output/host --sysconfdir=/home/furqan/buildroot/output/host/etc --enable-static --target=riscv64-buildroot-linux-musl --with-sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/furqan/buildroot/output/host --with-mpc=/home/furqan/buildroot/output/host --with-mpfr=/home/furqan/buildroot/output/host --with-pkgversion='Buildroot -g160ef0b2' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libmpx --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-arch=rv64imafdcv_zicsr_zifencei --with-abi=lp64d --enable-languages=c,c++ --with-build-time-tools=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/bin --enable-shared --disable-libgomp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.3.0 (Buildroot -g160ef0b2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_3d3e2.dir/']
+        ignore line: [ /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/cc1plus -quiet -v -imultilib . -isysroot /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot -D_GNU_SOURCE /home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_3d3e2.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv64gcv -mabi=lp64d -misa-spec=20191213 -mtls-dialect=trad -march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -version -fstack-protector-strong -fPIE -o /tmp/cc1ybr6A.s]
+        ignore line: [GNU C++17 (Buildroot -g160ef0b2) version 14.3.0 (riscv64-buildroot-linux-musl)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/local/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0]
+        ignore line: [ /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0/riscv64-buildroot-linux-musl/.]
+        ignore line: [ /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include/c++/14.3.0/backward]
+        ignore line: [ /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/include]
+        ignore line: [ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include]
+        ignore line: [ /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 04c5f43cd6764aeb55d037114d509358]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_3d3e2.dir/']
+        ignore line: [ /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/as -v --traditional-format -fpic -march=rv64gcv -march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1ybr6A.s]
+        ignore line: [GNU assembler version 2.45.1 (riscv64-buildroot-linux-musl) using BFD version (GNU Binutils) 2.45.1]
+        ignore line: [COMPILER_PATH=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_3d3e2]
+        ignore line: [/home/furqan/buildroot/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3e2.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++.br_real]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper]
+        ignore line: [Target: riscv64-buildroot-linux-musl]
+        ignore line: [Configured with: ./configure --prefix=/home/furqan/buildroot/output/host --sysconfdir=/home/furqan/buildroot/output/host/etc --enable-static --target=riscv64-buildroot-linux-musl --with-sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --enable-plugins --enable-lto --with-gmp=/home/furqan/buildroot/output/host --with-mpc=/home/furqan/buildroot/output/host --with-mpfr=/home/furqan/buildroot/output/host --with-pkgversion='Buildroot -g160ef0b2' --with-bugurl=https://gitlab.com/buildroot.org/buildroot/-/issues --without-zstd --disable-libmpx --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --enable-tls --enable-threads --without-isl --without-cloog --with-arch=rv64imafdcv_zicsr_zifencei --with-abi=lp64d --enable-languages=c,c++ --with-build-time-tools=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/bin --enable-shared --disable-libgomp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.3.0 (Buildroot -g160ef0b2) ]
+        ignore line: [COMPILER_PATH=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/]
+        ignore line: [LIBRARY_PATH=/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/:/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/:/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-march=rv64gcv' '-mabi=lp64d' '-v' '-o' 'cmTC_3d3e2' '-shared-libgcc' '-misa-spec=20191213' '-mtls-dialect=trad' '-march=rv64imafdcv_zicsr_zifencei_zve32f_zve32x_zve64d_zve64f_zve64x_zvl128b_zvl32b_zvl64b' '-dumpdir' 'cmTC_3d3e2.']
+        link line: [ /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/collect2 -plugin /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/liblto_plugin.so -plugin-opt=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDbqXis.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --eh-frame-hdr -melf64lriscv -X -dynamic-linker /lib/ld-musl-riscv64.so.1 -pie -o cmTC_3d3e2 /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0 -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib -z now -z relro -v CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o]
+          arg [/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccDbqXis.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-melf64lriscv] ==> ignore
+          arg [-X] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-riscv64.so.1] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3d3e2] ==> ignore
+          arg [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o] ==> obj [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o]
+          arg [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o] ==> obj [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o]
+          arg [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o] ==> obj [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o]
+          arg [-L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0] ==> dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0]
+          arg [-L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib] ==> dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib]
+          arg [-L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib] ==> dir [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib]
+          arg [-L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib] ==> dir [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib]
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o] ==> obj [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o]
+          arg [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o] ==> obj [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o]
+        ignore line: [collect2 version 14.3.0]
+        ignore line: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/ld -plugin /home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/liblto_plugin.so -plugin-opt=/home/furqan/buildroot/output/host/libexec/gcc/riscv64-buildroot-linux-musl/14.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDbqXis.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot --eh-frame-hdr -melf64lriscv -X -dynamic-linker /lib/ld-musl-riscv64.so.1 -pie -o cmTC_3d3e2 /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0 -L/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib -L/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib -z now -z relro -v CMakeFiles/cmTC_3d3e2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o]
+        linker tool for 'CXX': /home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/ld
+        collapse library dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0] ==> [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0]
+        collapse library dir [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/lib] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/lib]
+        collapse library dir [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib]
+        collapse library dir [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib] ==> [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib/Scrt1.o;/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crti.o;/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtbeginS.o;/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtendS.o;/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/crtn.o]
+        implicit dirs: [/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/lib;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/lib;/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/furqan/buildroot/output/host/lib/gcc/riscv64-buildroot-linux-musl/14.3.0/../../../../riscv64-buildroot-linux-musl/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.45.1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindGit.cmake:111 (find_program)"
+      - "cmake/git-vars.cmake:1 (find_package)"
+      - "CMakeLists.txt:26 (include)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/home/furqan/buildroot/output/host/sbin/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/git"
+      - "/usr/local/sbin/git"
+      - "/usr/local/bin/git"
+      - "/usr/sbin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "ggml/CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:1296 (message)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "ggml/CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      riscv64-buildroot-linux-musl-gcc.br_real (Buildroot -g160ef0b2) 14.3.0
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "ggml/CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-gcc-ar-"
+      - "riscv64-buildroot-linux-musl-gcc-ar-"
+      - "riscv64-buildroot-linux-musl-gcc-ar"
+      - "riscv64-buildroot-linux-musl-gcc-ar"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/home/furqan/buildroot/output/host/sbin/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/X11R6/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/X11R6/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/X11R6/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/pkg/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/pkg/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/pkg/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/opt/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/opt/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/opt/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/local/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/X11R6/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/X11R6/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/X11R6/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/pkg/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/pkg/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/usr/pkg/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/opt/bin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/opt/sbin/riscv64-buildroot-linux-musl-gcc-ar-"
+      - "/opt/riscv64-buildroot-linux-musl-gcc-ar-"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "ggml/CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "riscv64-buildroot-linux-musl-gcc-ranlib"
+      - "riscv64-buildroot-linux-musl-gcc-ranlib"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/home/furqan/buildroot/output/host/sbin/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/X11R6/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/X11R6/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/X11R6/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/pkg/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/pkg/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/pkg/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/opt/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/opt/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/opt/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/games/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/games/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/lib/wsl/lib/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/snap/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/local/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/X11R6/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/X11R6/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/X11R6/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/pkg/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/pkg/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/usr/pkg/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/opt/bin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/opt/sbin/riscv64-buildroot-linux-musl-gcc-ranlib-"
+      - "/opt/riscv64-buildroot-linux-musl-gcc-ranlib-"
+    found: "/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "ggml/CMakeLists.txt:12 (find_program)"
+    mode: "program"
+    variable: "GIT_EXE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git"
+      - "git.exe"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/home/furqan/buildroot/output/host/sbin/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/git"
+      - "/usr/local/sbin/git"
+      - "/usr/local/bin/git"
+      - "/usr/sbin/git"
+    found: "/usr/bin/git"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "ggml/CMakeLists.txt:290 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-wtl8qH"
+      binary: "/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-wtl8qH"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "-march=rv64gcv -mabi=lp64d"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/furqan/llama.cpp/cmake/;/home/furqan/llama.cpp/ggml/cmake/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-wtl8qH'
+        
+        Run Build Command(s): /home/furqan/buildroot/output/host/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e0d79/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e0d79.dir/build.make CMakeFiles/cmTC_e0d79.dir/build
+        gmake[1]: Entering directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-wtl8qH'
+        Building C object CMakeFiles/cmTC_e0d79.dir/src.c.o
+        /home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -march=rv64gcv -mabi=lp64d  -std=gnu11 -o CMakeFiles/cmTC_e0d79.dir/src.c.o -c /home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-wtl8qH/src.c
+        Linking C executable cmTC_e0d79
+        /home/furqan/buildroot/output/host/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0d79.dir/link.txt --verbose=1
+        /home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc -march=rv64gcv -mabi=lp64d  CMakeFiles/cmTC_e0d79.dir/src.c.o -o cmTC_e0d79
+        gmake[1]: Leaving directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-wtl8qH'
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "ggml/src/CMakeLists.txt:69 (find_program)"
+    mode: "program"
+    variable: "GGML_CCACHE_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/home/furqan/buildroot/output/host/sbin/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/ccache"
+      - "/usr/local/sbin/ccache"
+      - "/usr/local/bin/ccache"
+      - "/usr/sbin/ccache"
+      - "/usr/bin/ccache"
+      - "/sbin/ccache"
+      - "/bin/ccache"
+      - "/usr/games/ccache"
+      - "/usr/local/games/ccache"
+      - "/usr/lib/wsl/lib/ccache"
+      - "/snap/bin/ccache"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/ccache"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/ccache"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/ccache"
+      - "/usr/local/bin/ccache"
+      - "/usr/local/sbin/ccache"
+      - "/usr/local/ccache"
+      - "/usr/bin/ccache"
+      - "/usr/sbin/ccache"
+      - "/usr/ccache"
+      - "/bin/ccache"
+      - "/sbin/ccache"
+      - "/home/furqan/buildroot/output/host/bin/ccache"
+      - "/home/furqan/buildroot/output/host/sbin/ccache"
+      - "/home/furqan/buildroot/output/host/ccache"
+      - "/usr/X11R6/bin/ccache"
+      - "/usr/X11R6/sbin/ccache"
+      - "/usr/X11R6/ccache"
+      - "/usr/pkg/bin/ccache"
+      - "/usr/pkg/sbin/ccache"
+      - "/usr/pkg/ccache"
+      - "/opt/bin/ccache"
+      - "/opt/sbin/ccache"
+      - "/opt/ccache"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "ggml/src/CMakeLists.txt:70 (find_program)"
+    mode: "program"
+    variable: "GGML_SCCACHE_FOUND"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "sccache"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/home/furqan/buildroot/output/host/sbin/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/sccache"
+      - "/usr/local/sbin/sccache"
+      - "/usr/local/bin/sccache"
+      - "/usr/sbin/sccache"
+      - "/usr/bin/sccache"
+      - "/sbin/sccache"
+      - "/bin/sccache"
+      - "/usr/games/sccache"
+      - "/usr/local/games/sccache"
+      - "/usr/lib/wsl/lib/sccache"
+      - "/snap/bin/sccache"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/sccache"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/sccache"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sccache"
+      - "/usr/local/bin/sccache"
+      - "/usr/local/sbin/sccache"
+      - "/usr/local/sccache"
+      - "/usr/bin/sccache"
+      - "/usr/sbin/sccache"
+      - "/usr/sccache"
+      - "/bin/sccache"
+      - "/sbin/sccache"
+      - "/home/furqan/buildroot/output/host/bin/sccache"
+      - "/home/furqan/buildroot/output/host/sbin/sccache"
+      - "/home/furqan/buildroot/output/host/sccache"
+      - "/usr/X11R6/bin/sccache"
+      - "/usr/X11R6/sbin/sccache"
+      - "/usr/X11R6/sccache"
+      - "/usr/pkg/bin/sccache"
+      - "/usr/pkg/sbin/sccache"
+      - "/usr/pkg/sccache"
+      - "/opt/bin/sccache"
+      - "/opt/sbin/sccache"
+      - "/opt/sccache"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindOpenMP.cmake:333 (try_compile)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
+      - "ggml/src/ggml-cpu/CMakeLists.txt:76 (find_package)"
+      - "ggml/src/CMakeLists.txt:446 (ggml_add_cpu_backend_variant_impl)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-B1TZWL"
+      binary: "/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-B1TZWL"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "-march=rv64gcv -mabi=lp64d"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/furqan/llama.cpp/cmake/;/home/furqan/llama.cpp/ggml/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-B1TZWL'
+        
+        Run Build Command(s): /home/furqan/buildroot/output/host/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_14795/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_14795.dir/build.make CMakeFiles/cmTC_14795.dir/build
+        gmake[1]: Entering directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-B1TZWL'
+        Building C object CMakeFiles/cmTC_14795.dir/OpenMPTryFlag.c.o
+        /home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-gcc   -march=rv64gcv -mabi=lp64d -fopenmp -std=gnu11 -o CMakeFiles/cmTC_14795.dir/OpenMPTryFlag.c.o -c /home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-B1TZWL/OpenMPTryFlag.c
+        /home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-B1TZWL/OpenMPTryFlag.c:2:10: fatal error: omp.h: No such file or directory
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_14795.dir/build.make:81: CMakeFiles/cmTC_14795.dir/OpenMPTryFlag.c.o] Error 1
+        gmake[1]: Leaving directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-B1TZWL'
+        gmake: *** [Makefile:134: cmTC_14795/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindOpenMP.cmake:333 (try_compile)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindOpenMP.cmake:640 (_OPENMP_GET_FLAGS)"
+      - "ggml/src/ggml-cpu/CMakeLists.txt:76 (find_package)"
+      - "ggml/src/CMakeLists.txt:446 (ggml_add_cpu_backend_variant_impl)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-5FhxaY"
+      binary: "/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-5FhxaY"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-march=rv64gcv -mabi=lp64d"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/furqan/llama.cpp/cmake/;/home/furqan/llama.cpp/ggml/cmake/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-5FhxaY'
+        
+        Run Build Command(s): /home/furqan/buildroot/output/host/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ab487/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ab487.dir/build.make CMakeFiles/cmTC_ab487.dir/build
+        gmake[1]: Entering directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-5FhxaY'
+        Building CXX object CMakeFiles/cmTC_ab487.dir/OpenMPTryFlag.cpp.o
+        /home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++   -march=rv64gcv -mabi=lp64d -fopenmp -std=gnu++17 -o CMakeFiles/cmTC_ab487.dir/OpenMPTryFlag.cpp.o -c /home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-5FhxaY/OpenMPTryFlag.cpp
+        /home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-5FhxaY/OpenMPTryFlag.cpp:2:10: fatal error: omp.h: No such file or directory
+            2 | #include <omp.h>
+              |          ^~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_ab487.dir/build.make:81: CMakeFiles/cmTC_ab487.dir/OpenMPTryFlag.cpp.o] Error 1
+        gmake[1]: Leaving directory '/home/furqan/llama.cpp/build-q8/CMakeFiles/CMakeScratch/TryCompile-5FhxaY'
+        gmake: *** [Makefile:134: cmTC_ab487/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "find-v1"
+    backtrace:
+      - "ggml/src/CMakeLists.txt:473 (find_library)"
+    mode: "library"
+    variable: "MATH_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "m"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindOpenSSL.cmake:295 (find_package)"
+      - "vendor/cpp-httplib/CMakeLists.txt:125 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/sbin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/home/furqan/buildroot/output/host/sbin/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    found: "/home/furqan/buildroot/output/host/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindOpenSSL.cmake:370 (find_path)"
+      - "vendor/cpp-httplib/CMakeLists.txt:125 (find_package)"
+    mode: "path"
+    variable: "OPENSSL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openssl/ssl.h"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/include/"
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/include/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/include/"
+      - "/usr/sbin/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/sbin/include/"
+      - "/sbin/"
+      - "/bin/include/"
+      - "/bin/"
+      - "/usr/games/include/"
+      - "/usr/games/"
+      - "/usr/local/games/include/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/include/"
+      - "/usr/lib/wsl/lib/"
+      - "/snap/bin/include/"
+      - "/snap/bin/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/include/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/include/"
+      - "/include/"
+      - "/home/furqan/buildroot/output/host/include/include/"
+      - "/home/furqan/buildroot/output/host/include/"
+      - "/home/furqan/buildroot/output/host/include/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/include/openssl/ssl.h"
+      - "/home/furqan/buildroot/output/host/bin/openssl/ssl.h"
+      - "/usr/local/sbin/include/openssl/ssl.h"
+      - "/usr/local/sbin/openssl/ssl.h"
+      - "/usr/local/bin/include/openssl/ssl.h"
+      - "/usr/local/bin/openssl/ssl.h"
+      - "/usr/sbin/include/openssl/ssl.h"
+      - "/usr/sbin/openssl/ssl.h"
+      - "/usr/bin/include/openssl/ssl.h"
+      - "/usr/bin/openssl/ssl.h"
+      - "/sbin/include/openssl/ssl.h"
+      - "/sbin/openssl/ssl.h"
+      - "/bin/include/openssl/ssl.h"
+      - "/bin/openssl/ssl.h"
+      - "/usr/games/include/openssl/ssl.h"
+      - "/usr/games/openssl/ssl.h"
+      - "/usr/local/games/include/openssl/ssl.h"
+      - "/usr/local/games/openssl/ssl.h"
+      - "/usr/lib/wsl/lib/include/openssl/ssl.h"
+      - "/usr/lib/wsl/lib/openssl/ssl.h"
+      - "/snap/bin/include/openssl/ssl.h"
+      - "/snap/bin/openssl/ssl.h"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/include/openssl/ssl.h"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/openssl/ssl.h"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/openssl/ssl.h"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/openssl/ssl.h"
+      - "/usr/local/include/include/openssl/ssl.h"
+      - "/usr/local/include/openssl/ssl.h"
+      - "/usr/local/include/openssl/ssl.h"
+      - "/usr/local/openssl/ssl.h"
+      - "/usr/include/include/openssl/ssl.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindOpenSSL.cmake:628 (find_library)"
+      - "vendor/cpp-httplib/CMakeLists.txt:125 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_SSL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ssl"
+      - "ssleay32"
+      - "ssleay32MD"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib64/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib64/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/bin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/usr/lib/wsl/lib/"
+      - "/usr/lib/wsl/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib64/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib64/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib64/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib64/"
+      - "/home/furqan/buildroot/output/host/lib64/"
+      - "/home/furqan/buildroot/output/host/lib64/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+      - "/usr/lib/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/furqan/buildroot/output/host/share/cmake-4.3/Modules/FindOpenSSL.cmake:642 (find_library)"
+      - "vendor/cpp-httplib/CMakeLists.txt:125 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_CRYPTO_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "crypto"
+    candidate_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib64/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib64/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    searched_directories:
+      - "/home/furqan/buildroot/output/host/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/usr/lib/wsl/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/lib64/"
+      - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib/"
+      - "/home/furqan/buildroot/output/host/lib64/"
+      - "/home/furqan/buildroot/output/host/"
+      - "/opt/"
+      - "/usr/lib/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/home/furqan/buildroot/output/host/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/usr/lib/wsl/lib"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/furqan/buildroot/output/host"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+...

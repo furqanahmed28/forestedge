@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environment & config
+raspberry/config.json
+raspberry/alerts_buffer.json
+raspberry/logs/
+raspberry/images/
+raspberry/temp_capture.jpg
+raspberry/node_out_*.txt
+raspberry/node_err_*.txt
+
+# Models and weights
+*.gguf
+*.bin
+*.pt
+*.onnx
+
+# Build artifacts & temp
+*.qcow2
+*.ext2
+*.ext4
+build/
+output/
+.DS_Store
+Thumbs.db

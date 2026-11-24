@@ -1,0 +1,3 @@
+common/CMakeFiles/build_info.dir/build-info.cpp.o: \
+ /home/furqan/llama.cpp/build-q8/common/build-info.cpp \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h

@@ -1,0 +1,1 @@
+/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++ -march=rv64gcv -mabi=lp64d -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/llama-simple.dir/link.d "CMakeFiles/llama-simple.dir/simple.cpp.o" -o ../../bin/llama-simple  ../../src/libllama.a ../../ggml/src/libggml.a -ldl ../../ggml/src/libggml-cpu.a ../../ggml/src/libggml-base.a

@@ -1,0 +1,14 @@
+[Unit]
+Description=ForestEdge OS Master Node Service
+After=network.target
+
+[Service]
+Type=simple
+User=forest
+WorkingDirectory=/home/forest/engine
+ExecStart=/usr/bin/python3 main.py config.json
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

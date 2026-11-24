@@ -1,0 +1,21 @@
+{
+    "role": "MasterNode",
+    "cluster_id": "01",
+    "node_id": "N01M01",
+    "standalone": true,
+    "inference_interval_seconds": 15,
+    "ip": {
+        "master_cloud_url": "https://forestedge.onlinewebshop.net/api.php?key=FE_SECRET_2026"
+    },
+    "llama_flags": {
+        "threads": 4,
+        "n_predict": 128,
+        "temp": 0.1,
+        "top_k": 40,
+        "top_p": 0.9,
+        "repeat_penalty": 1.1,
+        "model_path": "/home/forest/models/Qwen3VL-2B-Instruct-Q4_K_M.gguf",
+        "mmproj_path": "/home/forest/models/mmproj-Qwen3VL-2B-Instruct-Q8_0.gguf",
+        "bin_path": "/home/forest/llama.cpp/build/bin/llama-mtmd-cli"
+    }
+}

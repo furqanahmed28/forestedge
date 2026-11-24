@@ -1,0 +1,2 @@
+/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-ar qc libserver-context.a "CMakeFiles/server-context.dir/server-task.cpp.o" "CMakeFiles/server-context.dir/server-queue.cpp.o" "CMakeFiles/server-context.dir/server-common.cpp.o" "CMakeFiles/server-context.dir/server-context.cpp.o" "CMakeFiles/server-context.dir/server-tools.cpp.o"
+/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-ranlib libserver-context.a

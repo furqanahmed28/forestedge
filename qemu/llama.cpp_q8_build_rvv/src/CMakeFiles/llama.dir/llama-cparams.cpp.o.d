@@ -1,0 +1,23 @@
+src/CMakeFiles/llama.dir/llama-cparams.cpp.o: \
+ /home/furqan/llama.cpp/src/llama-cparams.cpp \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdc-predef.h \
+ /home/furqan/llama.cpp/src/llama-cparams.h \
+ /home/furqan/llama.cpp/src/../include/llama.h \
+ /home/furqan/llama.cpp/ggml/src/../include/ggml.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdbool.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stddef.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/alltypes.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdint.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/bits/stdint.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/stdio.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/sysroot/usr/include/features.h \
+ /home/furqan/llama.cpp/ggml/src/../include/ggml-cpu.h \
+ /home/furqan/llama.cpp/ggml/src/../include/ggml-backend.h \
+ /home/furqan/llama.cpp/ggml/src/../include/ggml-alloc.h \
+ /home/furqan/llama.cpp/ggml/src/../include/ggml-opt.h \
+ /home/furqan/llama.cpp/ggml/src/../include/gguf.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0/cstdint \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0/riscv64-buildroot-linux-musl/bits/c++config.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0/riscv64-buildroot-linux-musl/bits/os_defines.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0/riscv64-buildroot-linux-musl/bits/cpu_defines.h \
+ /home/furqan/buildroot/output/host/riscv64-buildroot-linux-musl/include/c++/14.3.0/pstl/pstl_config.h

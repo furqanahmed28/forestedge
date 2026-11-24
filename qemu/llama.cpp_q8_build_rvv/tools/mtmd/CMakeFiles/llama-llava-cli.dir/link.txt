@@ -1,0 +1,1 @@
+/home/furqan/buildroot/output/host/bin/riscv64-buildroot-linux-musl-g++ -march=rv64gcv -mabi=lp64d -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/llama-llava-cli.dir/link.d "CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.o" -o ../../bin/llama-llava-cli
