@@ -4,7 +4,7 @@
 [![Target: RISC-V / RVV 1.0](https://img.shields.io/badge/Architecture-RISC--V%2064%20%7C%20RVV%201.0-orange.svg)](qemu/)
 [![Hardware: Raspberry Pi](https://img.shields.io/badge/Edge%20Platform-Raspberry%20Pi-red.svg)](raspberry/)
 [![Stack: llama.cpp / GGUF](https://img.shields.io/badge/Inference-llama.cpp%20%7C%20GGUF-blue.svg)](qemu/)
-[![Awards: P@SHA ICT Awards 2026 Finalist](https://img.shields.io/badge/Recognition-P%40SHA%20Finalist%202026-gold.svg)](#recognition--milestones)
+[![Recognition: SSKIC-IoBM Incubation](https://img.shields.io/badge/Recognition-SSKIC--IoBM%20Incubation-gold.svg)](#recognition--milestones)
 
 **ForestEdge** is an autonomous IoT and Edge GenAI forest risk monitoring platform engineered for real-time environmental surveillance, wildfire detection, tree disease identification, and illegal logging prevention in off-grid, low-connectivity forest ecosystems.
 
